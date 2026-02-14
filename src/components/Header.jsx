@@ -22,6 +22,14 @@ export default function Header() {
 			<h1 className="text-6xl font-bold playwrite-at-title text-center sm:text-4xl lg:text-6xl  xl:text-7xl">
 				Aayush Rastogi
 			</h1>
+			<h3 className="text-center text-sm lg:text-lg body-text">
+				Frontend Engineer with experience building scalable,
+				high-performance web applications. Proven track record of
+				improving frontend performance by up to 40%, and delivering
+				production-grade applications used by 100k+ users. Specialized
+				in modern frontend architecture, performance optimization, and
+				creating intuitive user experiences.
+			</h3>
 			<nav className="w-full max-w-4xl" aria-label="Contact and links">
 				<div className="text-gray-600 body-text flex flex-wrap justify-center items-center gap-4 text-sm sm:gap-5 sm:text-base md:gap-6 lg:gap-8">
 					{navLinks.map((item) => {
