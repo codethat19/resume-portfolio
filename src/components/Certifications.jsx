@@ -22,7 +22,7 @@ const CERTIFICATES = [
 export default function Certifications() {
 	return (
 		<div
-			className="relative rounded-md lg:border-1 border-dashed border-gray-400 flex flex-col p-2 
+			className="relative rounded-md lg:border border-dashed border-gray-400 flex flex-col p-2 
                         sm:p-3 lg:p-4 w-full max-w-full min-w-0 my-4 mx-0 lg:m-0 min-h-0 overflow-x-hidden 
                         lg:overflow-visible box-border justify-center items-center"
 		>

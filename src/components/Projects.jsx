@@ -21,7 +21,7 @@ const PROJECTS = [
 
 export default function Projects() {
 	return (
-		<div className="projects-section relative rounded-md lg:border-1 border-dashed border-gray-400 flex flex-col sm:p-4 lg:p-4 w-full max-w-full min-w-0 my-4 mx-0 lg:m-0 overflow-x-hidden lg:overflow-visible box-border">
+		<div className="projects-section relative rounded-md lg:border border-dashed border-gray-400 flex flex-col sm:p-4 lg:p-4 w-full max-w-full min-w-0 my-4 mx-0 lg:m-0 overflow-x-hidden lg:overflow-visible box-border">
 			<SectionHeading title="Projects" />
 
 			<div className="flex flex-col gap-8 lg:gap-10">
@@ -31,7 +31,7 @@ export default function Projects() {
 						className="group flex flex-col rounded-lg border border-gray-300 bg-white/80 overflow-hidden shadow-sm"
 					>
 						{/* Image container: description on hover with liquid glass */}
-						<div className="relative w-full aspect-video bg-gray-100 flex-shrink-0">
+						<div className="relative w-full aspect-video bg-gray-100 shrink-0">
 							<img
 								src={project.image}
 								alt={project.name}

@@ -1,5 +1,4 @@
 import SectionHeading from "./UI/SectionHeading";
-import SkillCard from "./UI/SkillCard";
 
 const SKILLS = [
 	{
@@ -17,10 +16,30 @@ const SKILLS = [
 	},
 ];
 
+function SkillCard({ skill }) {
+	return (
+		<div className="flex flex-col w-full min-w-0 sm:min-w-22 lg:min-w-18">
+			<div
+				className="w-full min-w-0 hover:scale-105 lg:hover:scale-110 text-[#FFF] transition-all duration-300 bg-[#8F87F1]/70 rounded-md
+								p-2 sm:p-3 lg:p-4 flex flex-col items-center justify-center gap-1 sm:gap-2 hover:bg-[#2D2D2D]"
+			>
+				<img
+					src={skill.logo}
+					alt={skill.name}
+					className="w-10 h-10 sm:w-12 sm:h-12 lg:w-20 lg:h-20 object-contain"
+				/>
+				<span className="text-xs sm:text-sm body-text text-center wrap-break-word line-clamp-2">
+					{skill.name}
+				</span>
+			</div>
+		</div>
+	);
+}
+
 export default function Skills() {
 	return (
 		<div
-			className="relative rounded-md lg:border-1 border-dashed border-gray-400 flex flex-col p-2 
+			className="relative rounded-md lg:border border-dashed border-gray-400 flex flex-col p-2 
                         sm:p-3 lg:p-4 w-full max-w-full min-w-0 my-4 mx-0 lg:m-0 min-h-0 overflow-x-hidden 
                         lg:overflow-visible box-border justify-center items-center"
 		>
