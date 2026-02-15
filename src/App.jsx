@@ -15,7 +15,7 @@ function App() {
 						lg:overflow-visible py-6"
 		>
 			<Header />
-			<Terminal />
+			{/* <Terminal /> */}
 
 			<div
 				className="flex flex-col lg:flex-row justify-center items-stretch lg:items-start gap-4 lg:gap-12 w-full min-w-0 
